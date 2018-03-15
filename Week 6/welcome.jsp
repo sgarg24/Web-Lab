@@ -19,14 +19,14 @@
 
     <section class="container about-container">
         <div>
-            <h2><%out.print(request.getParameter("title"));%></h2>
+            <h2>Sample</h2>
             <h5>Coming Soon</h5>
         </div>
     </section>
 
     <footer>
-        <p>Created by: <%out.print(request.getParameter("name"));%></p>
-        <p>Contact information: <a href="mailto:srijangreatgarg@gmail.com"><%out.print(request.getParameter("email"));%></a>.</p>
+        <p>Created by: Sgarg24</p>
+        <p>Contact information: <a href="mailto:srijangreatgarg@gmail.com">srijangreatgarg@gmail.com</a>.</p>
     </footer>
 </body>
 </html>
