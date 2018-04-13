@@ -14,6 +14,7 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./blogs.html">Blogs</a></li>
+                <li><a href="./login.html">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -32,15 +33,42 @@
                         <input type="number" name="phone" min="1000000000" required id="phone">
                     </div>
                 </div>
-                <div>
+                <br>
+                <div class="quiz-questions">
                     <div>
-                        <label>Que 1)</label>
-                        <br>
-                        <input type="radio" name="que1" required>
+                        <div>
+                            <label>Que 1) How do you come to know about us?</label>
+                            <br>
+                            <input type="radio" name="que1" value="Online Advertisment" required>Online Advertisment<br>
+                            <input type="radio" name="que1" value="Social Media" required>Social Media<br>
+                            <input type="radio" name="que1" value="Company HR" required>Company HR<br>
+                        </div>
+                        <div>
+                            <label>Que 2) How often you need to create polls?</label>
+                            <br>
+                            <input type="radio" name="que2" value="Once a month" required>Once a month<br>
+                            <input type="radio" name="que2" value="Twice a month" required>Twice a month<br>
+                            <input type="radio" name="que2" value="Once a week" required>Once a week<br>
+                            <input type="radio" name="que2" value="More than once a week" required>More than once a week<br>
+                        </div>
+                        <div>
+                            <label>Que 3) Are you willing to pay small donation for the website?</label>
+                            <br>
+                            <input type="radio" name="que3" value="Yes" required>Yes<br>
+                            <input type="radio" name="que3" value="No" required>No<br>
+                            <input type="radio" name="que3" value="Maybe" required>Maybe<br>
+                        </div>
+                        <div>
+                            <label>Que 4) How would you like us to improve</label>
+                            <br>
+                            <textarea name="improve"></textarea>
+                        </div>
+                        
                     </div>
+                    
                 </div>
 
-                <div>
+                <div class="flex submit-buttons">
                     <input type="submit" name="submit" value="Submit">
                     <input type="reset" name="reset" value="Reset">
                 </div>

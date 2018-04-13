@@ -284,3 +284,24 @@ span#time-now{
 .quiz-container div form div input[type='date']{
   vertical-align: middle;
 }
+.quiz-container div form div.submit-buttons{
+  width: 50%;
+  margin-left: 25%;
+}
+.quiz-container div form div textarea{
+  width: 80%;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  color: darkgray;
+}
+.quiz-container div form div .quiz-questions{
+  width: 100%;
+}
+.quiz-questions div div{
+  width: 60%;
+  text-align: left;
+  margin-left: 25%;
+  margin-bottom: 20px;
+}

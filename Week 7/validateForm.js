@@ -18,6 +18,7 @@ function validateLoginForm() {
 }
 
 function validateSignupForm() {
+
   let phone = document.forms["signup-form"]["phone"].value;
   if(phone.length==10){
       if (!(phone.match(/(7|8|9)\d{9}/))) {
@@ -45,6 +46,28 @@ function validateSignupForm() {
   else
     alert("Password must be atleast 6 character long");
 }
+
+function calculateAge(){
+
+  let dob = document.forms["signup-form"]["dob"].value;
+  var year = Number(dob.substr(0, 4));
+  var month = Number(dob.substr(4, 2)) - 1;
+  var day = Number(dob.substr(6, 2));
+  var today = new Date();
+  var age = today.getFullYear() - year;
+  if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < day)) {
+    age--;
+  }
+
+  // alert(age + "Years");
+  let ageDisp=document.getElementById("Age");
+  ageDisp.value=age + " Years"
+}
+
+function validateQuizForm() {
+    confirm("Are you sure");
+}
+
 d=new Date();
 setInterval(()=>{
   time.innerHTML=d.toLocaleString();
