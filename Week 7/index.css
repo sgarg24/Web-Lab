@@ -209,7 +209,7 @@ img.logo{
   font-size: 20px;
   font-weight: bolder;
 }
-.login-container div form div input[type='text'],input[type='date'],input[type='password'],input[type='email'],input[type='tel'], input[type='submit'], input[type='reset']{
+.login-container div form div input[type='text'],input[type='date'],input[type='password'],input[type='email'],input[type='number'], input[type='submit'], input[type='reset']{
   height: 40px;
   width: 60%;
   border-radius: 20px;
@@ -252,4 +252,35 @@ span#time-now{
   position: relative;
   margin-top: 100px;
   top: 30px;
+}
+
+.quiz-container{
+  background-image: linear-gradient(to bottom right, red, yellow);
+  width: 100% ;
+  /*display: flex;*/
+  flex-wrap: wrap;
+}
+.quiz-container .flex{
+  display: flex;
+  justify-content: center;
+}
+.quiz-container div form div input[type='text'],input[type='date'],input[type='password'],input[type='email'],input[type='number'], input[type='submit'], input[type='reset']{
+  height: 40px;
+  width: 60%;
+  border-radius: 20px;
+  padding: 0 20px;
+  font-size: 17px;
+}
+.quiz-container div form div input[type='submit'], input[type='reset']{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.quiz-container div form div input[type='submit']{
+  background-color: lightgreen;
+}
+.quiz-container div form div input[type='reset']{
+  background-color: red;
+}
+.quiz-container div form div input[type='date']{
+  vertical-align: middle;
 }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login | E Poll | Create free polls</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <header>
+        <!-- <h1 class="logo">E-Poll</h1> -->
+        <img src="./poll.png" class="logo">
+        <span id="time-now"></span>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container quiz-container">
+        <div>
+            <form name="quizForm" onsubmit="return validateQuizForm()" id="quiz-form">
+                <h1>Monthly Quiz (007)</h1>
+                <div class="flex">
+                    <div>
+                        <label>Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div>
+                        <label>Phone</label>
+                        <input type="number" name="phone" min="1000000000" required id="phone">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label>Que 1)</label>
+                        <br>
+                        <input type="radio" name="que1" required>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by: Srijan Garg</p>
+        <p>Contact information: <a href="mailto:srijangreatgarg@gmail.com">srijangreatgarg@gmail.com</a>.</p>
+    </footer>
+</body>
+<script type="text/javascript" src="./validateForm.js"></script>
+</html>

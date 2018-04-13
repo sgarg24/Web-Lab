@@ -20,7 +20,7 @@
 
     <section class="container login-container">
         <div>
-            <form name="myForm" onsubmit="return validateForm()" id="login-form">
+            <form name="myForm" onsubmit="return validateLoginForm()" id="login-form">
                 <h1>Login</h1>
                 <div>
                     <label>Email</label>
@@ -28,7 +28,7 @@
                 </div>
                 <div>
                     <label>Password</label>
-                    <input type="password" name="password" required id="password">
+                    <input type="password" name="password" required id="password1">
                 </div>
                 <div>
                     <input type="submit" name="submit" value="Submit">
@@ -37,7 +37,7 @@
             </form>
         </div>
         <div>
-            <form name="myForm" onsubmit="return validateForm()">
+            <form name="myForm" onsubmit="return validateSignupForm()" id="signup-form">
                 <h1>Signup</h1>
                 <div>
                     <label>Email</label>
@@ -45,7 +45,7 @@
                 </div>
                 <div>
                     <label>Phone</label>
-                    <input type="tel" name="phone" required>
+                    <input type="number" name="phone" min="10" required id="phone">
                 </div>
                 <div>
                     <label>DOB</label>
@@ -53,7 +53,7 @@
                 </div>
                 <div>
                     <label>Password</label>
-                    <input type="password" name="password" required id="password">
+                    <input type="password" name="password" required>
                 </div>
                 <div>
                     <input type="submit" name="submit" value="Submit">
