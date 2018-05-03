@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="poll.xsl"?>
+<poll_stats>
+<poll>
+    <name>Ice Cream vs Chocolate</name>
+    <rating>8.2</rating>
+    <description>
+      65 % favour Ice Cream. Rest 35% favour Chocolate.
+   </description>
+</poll>
+<poll>
+    <name>Narendra Modi vs Donald Trump</name>
+    <rating>7.4</rating>
+    <description>
+      82 % Favoour Narendra Modi. Rest 18 % favour Donald Trump
+  </description>
+</poll>
+<poll>
+    <name>Bunk vs No Bunk</name>
+    <rating>10</rating>
+    <description>
+      100% Favour Bunk. Loosers favour No Bunk.
+  </description>
+</poll>
+</poll_stats>
